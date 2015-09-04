@@ -9,7 +9,7 @@ if (process.argv.length <= i) {
 }
 
 for (;i<process.argv.length; i++) {
-    sum += Number(args[i]);
+    sum += Number(process.argv[i]);
 }
 console.log(sum);
 
